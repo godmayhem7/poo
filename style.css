@@ -1,0 +1,135 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: Overpass;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.attribution { font-size: 11px; text-align: center; position: absolute;bottom: 0; }
+.attribution a { color: hsl(228, 45%, 44%);
+ }
+
+.main{
+    background-color: hsl(213, 19%, 18%);
+    width:310px;
+    padding: 25px;
+    border-radius: 30px;
+    margin-top: 150px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.main2{
+    background-color: hsl(213, 19%, 18%);
+    width:340px;
+    padding: 25px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    position: absolute;
+    top:0;
+    left: 30;
+   
+}
+
+.lin{
+    display: none;
+}
+
+h1{
+    color:hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.img{
+  background-color: hsla(215, 18%, 28%, 0.596);
+  padding: 10px;
+  border-radius: 200px;
+}
+
+.p{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(216, 12%, 54%);
+    
+    
+}
+
+
+
+.p1{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(216, 12%, 54%);
+    text-align:center;  
+}
+
+nav{
+    color:hsl(216, 12%, 54%);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+
+
+}
+
+.btn{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    padding: 10px 122px;
+    border: none;
+    border-radius: 100px;
+    margin: 20px 0px 5px 0px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    outline: none;
+    cursor: pointer;
+}
+.btn:active{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    outline: none;
+    transition: 200ms;
+}
+
+.sp1,.sp2,.sp3,.sp4,.sp5{
+    background-color: hsla(215, 18%, 28%, 0.596);
+    border-radius: 100px;
+    width: 50px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* .sp1:hover,.sp2:hover,.sp3:hover,.sp4:hover,.sp5:hover{
+    background-color: hsl(25, 97%, 53%);
+    transition: 1s;
+    color: white;
+} */
+
+.wi{
+    background-color: hsl(25, 97%, 53%); 
+}
+.zoo{
+    background-color: hsl(217, 12%, 63%); 
+}
+
+section{
+    display:none;
+}
+
+.sub-classlist{
+    background-color:hsl(25, 97%, 53%);
+    color: white;
+}
